@@ -7,7 +7,7 @@ const navbar = () => {
             <div className="container-fluid justify-content-between">
                 <NavLink className="navbar-brand wc fw-bold">
                     <span className='ns-logo rounded-pill border border-4 m-2'>SB</span>
-                    Shivam Birla
+                    Shivam Patil
                 </NavLink>
                 <div id="navbarText">
                     <ul className="d-flex me-auto mb-2 mb-lg-0 fs-5 wc">

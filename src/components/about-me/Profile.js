@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { PortfolioButton } from '../public-component';
-const RESUME_PDF = 'https://drive.google.com/file/d/1KDO9qgHQCxfTU-zJ4RYlscefPUVq4-oR/view?usp=sharing'
+const RESUME_PDF = 'https://drive.google.com/file/d/1dcQwuk2-Lt3JpLOJxGLrVwnMkIj0qb4d/view?usp=drive_link'
 
 
 const Profile = () => {
@@ -16,7 +16,7 @@ const Profile = () => {
             tick();
         }, delta);
         return () => { clearInterval(ticker) };
-    }, [text])
+    }, [text, delta])
 
     const tick = () => {
         let i = loopNum % toRotate.length;
@@ -64,7 +64,7 @@ const Profile = () => {
                                             <h4 className="wrap"># {text}</h4>
                                         </span>
                                     </div>
-                                    <h1 className='intro-name fw-bold'>Hi! I'am Shivam Birla</h1>
+                                    <h1 className='intro-name fw-bold'>Hi! I'am Shivam Patil</h1>
                                     <p style={{ fontSize: '1rem', marginBottom:23 }}>
                                         Seeking a challenging MERN stack developer position where my expertise in MongoDB,
                                         Express.js, React, and Node.js can be leveraged to develop innovative, scalable,
