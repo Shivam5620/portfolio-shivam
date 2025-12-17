@@ -1,4 +1,3 @@
-import React from 'react'
 import linkedInIcon from '../../assets/img/nav-icon1.svg';
 import facebookIcon from '../../assets/img/nav-icon2.svg';
 import instaIcon from '../../assets/img/nav-icon3.svg';
@@ -13,10 +12,10 @@ const Footer = () => {
         <div className='col-sm-12 col-md-6 col-lg-6 social-icon'>
             <Link to="https://www.linkedin.com/in/shivam-birla-71238022a/" target="__blank" className="linkedin-icon"><img src={linkedInIcon} alt="" title="LinkedIn" /></Link>
             <Link to="#" target="__blank" className="facebook-icon"><img src={facebookIcon} alt="" title="Facebook" /></Link>
-            <Link to="https://www.instagram.com/mr_sahuji_07/" target="__blank" className="insta-icon"><img src={instaIcon} alt="" title="Instagram" /></Link>
+            <Link to="#" target="__blank" className="insta-icon"><img src={instaIcon} alt="" title="Instagram" /></Link>
         </div>
         <div className='col-sm-12 col-md-6 col-lg-6 justify-content-center' style={{alignItems:'center', display:'grid'}}>
-          <p>© 2022 All rights reserved.</p>
+          <p>{new Date().getFullYear()} All rights reserved.</p>
         </div>
       </div>
     </>

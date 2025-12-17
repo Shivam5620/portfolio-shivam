@@ -148,15 +148,19 @@ a:hover {
 }
 
 .home-pic .hp-inner {
-  border: 10px solid #dee2e6;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 250px;
   width: 250px;
-  position: relative;
   border-radius: 50%;
-  background-image: url(./assets//img/profile.jpeg);
+  border: 10px solid #dee2e6;
+
+  background-image: url(./assets/img/profile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; /* 🔥 IMAGE CENTER INSIDE CIRCLE */
+
+  margin: 0 auto;
 }
+
 
 .wrap {
   -webkit-background-clip: text;
